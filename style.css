@@ -19,12 +19,15 @@ body {
   flex-direction: column;
   height: 100vh; 
 }
+
+/* HEADER */
+
 #header {
   background-color: var(--a);
   box-shadow: 0rem 1rem 3rem 2rem var(--a);
   height: 8vh;
-  padding: 1rem;
-  font-size: 2vmin;
+  /* padding: 1rem; */
+  font-size: 2.5vmin;
   text-transform: uppercase;
   
   display: flex;
@@ -33,22 +36,23 @@ body {
 }
 #header div {
   height: 8vh;
-  flex-grow: 1;
   display: flex;
   align-items: center;
-
 }
+
 #headerTitle {
-  font-size: 2rem;
+  font-size: 3.5vmin;
   padding-left: 1rem;
 }
+
+/* HOME PAGE */
 
 .content {
   padding-top: 3rem;
   padding-bottom: 5rem;
   flex-grow: 1;
 }
-.contentTitle {
+.homePageTitle {
   text-align: center;
   font-size: 1.3rem;
   margin-bottom: 1rem;
@@ -79,6 +83,24 @@ body {
   background-color: var(--e);
 }
 
+/* ABOUT PAGE */
+
+#aboutPage {
+  padding: 0 10%;
+}
+#aboutPageTitle {
+  padding-top: 3rem;
+  text-align: left;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+#aboutText {
+  line-height: 1.5rem;
+}
+
+/* FOOTER */
+
 #footer {
   background-color: var(--c);
   min-height: 5vh;
@@ -88,4 +110,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+#footerButtons i {
+  padding: 0 1rem;
+  font-size: 1.4rem;
 }
