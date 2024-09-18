@@ -64,7 +64,11 @@ body {
   margin: 0px;
   padding: 20px;
 }
-
+.main-content a {
+  color: white;
+  text-decoration: none;
+  padding: 10%;
+}
 .main-content-header {
   text-align: Left;
   font-size: 2rem;
