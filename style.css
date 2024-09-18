@@ -1,6 +1,6 @@
 :root {
   --a: rgba(37, 37, 37,0.9);
-  --b: rgb(82, 82, 82);
+  --b: rgb(52, 52, 52);
   --c: rgba(37, 37, 37,0.8);
   --d: rgb(0, 238, 255);
   --e: rgb(25, 25, 25);;
@@ -24,7 +24,7 @@ body {
   box-shadow: 0rem 1rem 3rem 2rem var(--a);
   height: 8vh;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 2vmin;
   text-transform: uppercase;
   
   display: flex;
